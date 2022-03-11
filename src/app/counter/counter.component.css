@@ -1,0 +1,31 @@
+.counter
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+p
+{
+    font-size: 2em;
+    color: rgb(28, 192, 50);
+    font-weight: bold;
+}
+
+.buttons 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttons button 
+{
+    margin: 0 10px;
+    padding: 2px 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
